@@ -4,6 +4,28 @@ html {
     scroll-behavior: smooth;
 }
 
+.dark{
+    background: #17202A ;
+}
+
+.dark p,.dark h2,.dark h3, .dark h4{
+    color: #ffffff;
+}
+
+.day{
+    background: #ffffff;
+}
+
+.day p {
+    color: black;
+}
+.day .dark-mode-toggle{
+
+}
+.dark .dark-mode-toggle{
+    filter: invert(100%);
+}
+
 body {
     padding: 0px;
     margin : 0px;
@@ -11,6 +33,8 @@ body {
 }
 
 .container {
+    position: relative;
+    z-index: 0;
     display       : flex;
     width         : 100%;
     flex-direction: column;
@@ -144,7 +168,7 @@ li a:hover {
     width        : 500px;
     border-radius: 50%;
     background   : rgb(28, 133, 232);
-    background   : radial-gradient(circle, rgba(28, 133, 232, 0.5) 0%, rgba(71, 166, 255, 0) 74%, rgba(255, 255, 255, 1) 100%);
+    background   : radial-gradient(circle, rgba(28, 133, 232, 0.5) 0%, rgba(71, 166, 255, 0) 74%, rgba(255, 255, 255, 0) 100%);
     position     : absolute;
     top          : -250px;
     left         : -250px;
@@ -399,7 +423,7 @@ textarea:focus {
     position  : absolute;
     z-index   : -1;
     background: rgb(0, 192, 144);
-    background: radial-gradient(closest-side at 50%, rgba(0, 192, 144, 0.94) 0%, rgba(103, 186, 166, 0.74) 48%, rgba(255, 255, 255, 1) 100%);
+    background: radial-gradient(closest-side at 50%, rgba(0, 192, 144, 0.94) 0%, rgba(103, 186, 166, 0.74) 48%, rgba(255, 255, 255, 0) 100%);
 }
 
 #third .graphic .pic-wrap {
@@ -493,7 +517,7 @@ textarea:focus {
     position  : absolute;
     z-index   : -1;
     background: rgb(28, 133, 232);
-    background: linear-gradient(0deg, rgba(28, 133, 232, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(0deg, rgba(28, 133, 232, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .sub-section-iii-hor .pop-up {
