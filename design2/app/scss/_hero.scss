@@ -1,0 +1,17 @@
+.hero{
+   display: flex;
+   align-items: center;
+
+   
+    @include breakpoint-up(large){
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+     &__text{
+        
+       
+
+     }
+}
