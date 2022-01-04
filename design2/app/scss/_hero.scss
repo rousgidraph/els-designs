@@ -1,9 +1,7 @@
 .hero{
-   display: flex;
-   align-items: center;
-
-   
-    @include breakpoint-up(large){
+    display: flex;
+    align-items: center;
+background-image: linear-gradient(to top, #ffffff, #fbfcfe, #f6fafd, #f0f8fc, #eaf6f9, #e7f5f7, #e5f5f5, #e3f4f2, #e3f4f2, #e3f4f2, #e3f4f2, #e3f4f2);    @include breakpoint-up(large){
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -14,4 +12,23 @@
        
 
      }
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    width: calc(100% - 5rem);
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100px;
+    }
 }
