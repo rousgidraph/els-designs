@@ -1,0 +1,17 @@
+#about{
+   
+   .ab{
+        display: flex;
+        justify-content: space-around;
+         height: 300px;
+        width: calc(100% - 10rem);
+
+   }
+   
+    .about__blue{
+        background: $darkBlue;
+        height: 100px;
+        width: calc(100% - 10rem);
+    }
+
+}
