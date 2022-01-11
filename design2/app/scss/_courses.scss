@@ -1,0 +1,47 @@
+.courses{
+   height: 70vh;
+ 
+    flex-direction: column;
+
+    .container{
+        width: 70%;
+    }
+
+   .col-item{
+    height: fit-content;
+    
+    width: fit-content;
+    gap: 15px;
+    flex-direction: row;
+
+    h1{
+        font-size: 3rem;
+        color: $anything;
+    }
+
+    .card{
+        height : 300px;
+        width: 300px;
+        padding: 2px;
+        border-radius: 20px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+        .img-wrapper{
+         height: 50%;
+         width: auto;   
+         margin: auto;
+         overflow: hidden;
+         
+        border-radius: 20px 20px  0 0 ;
+
+         }
+
+         .text-wrap{
+             padding: 0 0.7rem  0 0.7rem   ;
+            
+         }
+    }
+   
+   }
+}
+
