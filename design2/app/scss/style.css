@@ -107,6 +107,11 @@ a, a:visited, a:hover {
           justify-content: space-between;
 }
 
+.flex-jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .flex-jc-c {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -328,5 +333,57 @@ img {
   background: #0f1e36;
   height: 100px;
   width: calc(100% - 10rem);
+}
+
+.courses {
+  height: 70vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.courses .container {
+  width: 70%;
+}
+
+.courses .col-item {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.courses .col-item h1 {
+  font-size: 3rem;
+  color: #092541;
+}
+
+.courses .col-item .card {
+  height: 300px;
+  width: 300px;
+  padding: 2px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.courses .col-item .card .img-wrapper {
+  height: 50%;
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 20px 20px  0 0;
+}
+
+.courses .col-item .card .text-wrap {
+  padding: 0 0.7rem  0 0.7rem;
 }
 /*# sourceMappingURL=style.css.map */
