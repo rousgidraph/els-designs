@@ -182,12 +182,11 @@ img {
 .header nav {
   background-color: #E3F4F2;
   position: relative;
-  padding-top: 1.0625rem;
-  padding-bottom: 1.0625rem;
+  padding: 1.0625rem;
 }
 
 .header__logo {
-  height: 100px;
+  height: 50px;
 }
 
 .header__toggle > span {
@@ -317,7 +316,23 @@ img {
 }
 
 .feature img {
-  width: 100px;
+  width: 80px;
+}
+
+#about .ab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 300px;
+  width: calc(100% - 10rem);
+}
+
+#about .about__blue {
+  background: #0f1e36;
+  height: 100px;
+  width: calc(100% - 10rem);
 }
 
 .courses {
